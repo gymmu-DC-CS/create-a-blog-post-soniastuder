@@ -2,10 +2,19 @@
 *::before,
 *::after {
   box-sizing: content-box;
+  margin: 20px;
 }
 
-body {
-  margin: 0;
-  background-color: lightgray;
-  font-family: sans-serif;
+body { 
+  
+  background-color: blanchedalmond;
+  margin: 0%;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
 }
+#box{
+  width: 200px; ;
+height: 200px;
+background-color: rgb(245, 203, 230);
+}
+  
