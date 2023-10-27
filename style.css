@@ -5,16 +5,76 @@
   margin: 20px;
 }
 
+#statistik {
+  width: 200px;
+  height: 200px;
+}
+ {
+  color: chocolate;
+}
+
 body { 
   
-  background-color: blanchedalmond;
-  margin: 0%;
+  background-color: antiquewhite;
+ 
+  background-image: linear-gradient(90deg, rgb(187, 200, 226) 50%, rgb(255, 255, 255) 100%);
+  margin: 0%;)
   font-style: italic;
   font-family: 'Times New Roman', Times, serif;
 }
-#box{
-  width: 200px; ;
-height: 200px;
-background-color: rgb(245, 203, 230);
-}
-  
+
+
+  #top10 {
+    width: 900px;
+  }
+  #clothing brands {
+    width: 200px;
+    height: auto;
+  }
+  #text1 {
+    border-style: solid;
+    border-width: 2px;
+    padding: 30px;
+  }
+  #title {
+    color: darkgoldenrod;
+    font-family: inherit;
+  }
+  #text2 {
+    border-style: solid;
+    border-width: 2px;
+    padding: 30px;
+  }
+  #link1 {
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+  }
+  #link2 {
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+  }
+  #child {
+    color: indianred;
+  }
+  #statistik {
+    height: 300px;
+  }
+  #salto {
+    width: 250px;
+    margin-left: 250px;
+    height: 250px;
+    position: absolute;
+    top: 550px;
+    right: 20px;
+  }
+  @keyframes rotation {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+  }
+
+  #salto{
+    animation: rotation 5s linear infinite forwards;
+  }
